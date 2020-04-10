@@ -1,0 +1,1 @@
+sudo stack run --allow-different-user

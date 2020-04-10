@@ -1,0 +1,15 @@
+.bash_history
+.bash_logout
+.bashrc
+.cache/*
+.ghc/*
+.profile
+.ssh/*
+.stack-work/*
+.stack/*
+.sudo_as_admin_successful
+.vim/*
+.viminfo
+.*.swp
+.*.swo
+notes

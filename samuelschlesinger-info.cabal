@@ -1,0 +1,140 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.31.2.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: 9bec8683e9569e29ae9eab0421e706b5a751f7a6dc505589f1f5ed1a16b5271e
+
+name:           samuelschlesinger-info
+version:        0.1.0.0
+description:    Please see the README on GitHub at <https://github.com/githubuser/samuelschlesinger-info#readme>
+homepage:       https://github.com/githubuser/samuelschlesinger-info#readme
+bug-reports:    https://github.com/githubuser/samuelschlesinger-info/issues
+author:         Author name here
+maintainer:     example@example.com
+copyright:      2020 Author name here
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+extra-source-files:
+    README.md
+    ChangeLog.md
+
+source-repository head
+  type: git
+  location: https://github.com/githubuser/samuelschlesinger-info
+
+library
+  exposed-modules:
+      Sam
+  other-modules:
+      Paths_samuelschlesinger_info
+  hs-source-dirs:
+      src
+  build-depends:
+      aeson
+    , base
+    , bcrypt
+    , blaze-html
+    , bytestring
+    , cookie
+    , data-default-class
+    , directory
+    , exceptions
+    , http-api-data
+    , mtl
+    , optparse-applicative
+    , pretty-simple
+    , random
+    , servant-blaze
+    , servant-server
+    , stm
+    , text
+    , time
+    , transformers
+    , unix
+    , unordered-containers
+    , uuid
+    , wai
+    , wai-extra
+    , warp
+    , warp-tls
+  default-language: Haskell2010
+
+executable samuelschlesinger-info
+  main-is: Main.hs
+  other-modules:
+      Paths_samuelschlesinger_info
+  hs-source-dirs:
+      app
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      aeson
+    , base
+    , bcrypt
+    , blaze-html
+    , bytestring
+    , cookie
+    , data-default-class
+    , directory
+    , exceptions
+    , http-api-data
+    , mtl
+    , optparse-applicative
+    , pretty-simple
+    , random
+    , samuelschlesinger-info
+    , servant-blaze
+    , servant-server
+    , stm
+    , text
+    , time
+    , transformers
+    , unix
+    , unordered-containers
+    , uuid
+    , wai
+    , wai-extra
+    , warp
+    , warp-tls
+  default-language: Haskell2010
+
+test-suite samuelschlesinger-info-test
+  type: exitcode-stdio-1.0
+  main-is: Spec.hs
+  other-modules:
+      Paths_samuelschlesinger_info
+  hs-source-dirs:
+      test
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      aeson
+    , base
+    , bcrypt
+    , blaze-html
+    , bytestring
+    , cookie
+    , data-default-class
+    , directory
+    , exceptions
+    , http-api-data
+    , mtl
+    , optparse-applicative
+    , pretty-simple
+    , random
+    , samuelschlesinger-info
+    , servant-blaze
+    , servant-server
+    , stm
+    , text
+    , time
+    , transformers
+    , unix
+    , unordered-containers
+    , uuid
+    , wai
+    , wai-extra
+    , warp
+    , warp-tls
+  default-language: Haskell2010
